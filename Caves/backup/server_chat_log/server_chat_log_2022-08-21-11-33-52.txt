@@ -1,0 +1,35 @@
+[00:00:37]: [Join Announcement] lbc9601
+[00:01:13]: [Join Announcement] tuituijiangjiang
+[00:07:55]: [Skin Announcement] tuituijiangjiang body_wormwood_victorian
+[00:14:04]: [Death Announcement] tuituijiangjiang 死于： 火。他变成了可怕的鬼魂！
+[00:14:18]: [Death Announcement] lbc9601 死于： 火。他变成了可怕的鬼魂！
+[00:14:32]: [Vote Announcement] rollback passed
+[00:30:37]: [Death Announcement] lbc9601 死于： 独眼巨鹿。他变成了可怕的鬼魂！
+[00:30:41]: [Death Announcement] tuituijiangjiang 死于： 独眼巨鹿。他变成了可怕的鬼魂！
+[00:30:51]: [Vote Announcement] rollback passed
+[00:41:41]: [Death Announcement] tuituijiangjiang 死于： 饥饿。他变成了可怕的鬼魂！
+[00:42:13]: [Death Announcement] lbc9601 死于： 蜘蛛。他变成了可怕的鬼魂！
+[00:42:14]: [Vote Announcement] rollback passed
+[00:43:59]: [Death Announcement] lbc9601 死于： 冻伤。他变成了可怕的鬼魂！
+[00:44:15]: [Vote Announcement] rollback passed
+[00:46:24]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[00:46:46]: [Vote Announcement] rollback passed
+[00:48:49]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[00:49:08]: [Death Announcement] tuituijiangjiang 死于： 恐怖尖喙。他变成了可怕的鬼魂！
+[00:49:21]: [Vote Announcement] rollback passed
+[00:57:26]: [Death Announcement] tuituijiangjiang 死于： 恐怖尖喙。他变成了可怕的鬼魂！
+[00:59:34]: [Skin Announcement] lbc9601 body_tweedvest_grey_steel
+[01:03:15]: [Vote Announcement] rollback passed
+[01:07:18]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:07:52]: [Death Announcement] tuituijiangjiang 死于： 猎犬。他变成了可怕的鬼魂！
+[01:07:56]: [Vote Announcement] rollback passed
+[01:07:59]: [Death Announcement] lbc9601 死于： 猎犬。他变成了可怕的鬼魂！
+[01:17:21]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:32:36]: [Skin Announcement] tuituijiangjiang feet_captoe_shoe_brown_beaver
+[01:40:30]: [Death Announcement] tuituijiangjiang 死于： 恐怖尖喙。他变成了可怕的鬼魂！
+[01:40:45]: [Vote Announcement] rollback passed
+[01:48:45]: [Death Announcement] lbc9601 死于： 黑暗。他变成了可怕的鬼魂！
+[01:49:38]: [Death Announcement] tuituijiangjiang 死于： 猎犬。他变成了可怕的鬼魂！
+[01:49:45]: [Vote Announcement] rollback passed
+[01:50:33]: [Death Announcement] tuituijiangjiang 死于： 猎犬。他变成了可怕的鬼魂！
+[01:50:41]: [Leave Announcement] lbc9601

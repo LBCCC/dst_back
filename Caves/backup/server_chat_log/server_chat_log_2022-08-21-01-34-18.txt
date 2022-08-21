@@ -1,0 +1,15 @@
+[00:00:36]: [Join Announcement] lbc9601
+[00:01:25]: [Join Announcement] tuituijiangjiang
+[00:07:52]: [Skin Announcement] lbc9601 wilson_beard_shadow
+[00:25:52]: [Skin Announcement] tuituijiangjiang legs_tweed_knickerbocker_brown_chocolate
+[00:45:09]: [Death Announcement] lbc9601 死于： 怪物肉。他变成了可怕的鬼魂！
+[00:55:55]: [Resurrect Announcement] lbc9601 复活自： tuituijiangjiang.
+[01:29:46]: [Skin Announcement] lbc9601 webber_beard_shadow
+[01:34:33]: [Death Announcement] tuituijiangjiang 死于： 冻伤。他变成了可怕的鬼魂！
+[01:38:56]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[01:39:50]: [Death Announcement] tuituijiangjiang 死于： 海象。他变成了可怕的鬼魂！
+[01:43:07]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:56:25]: [Death Announcement] lbc9601 死于： 蓝色猎犬。他变成了可怕的鬼魂！
+[02:02:48]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[02:03:42]: [Vote Announcement] rollback passed
+[02:05:11]: [Leave Announcement] lbc9601

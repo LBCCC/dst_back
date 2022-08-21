@@ -1,0 +1,6 @@
+[00:00:35]: [Join Announcement] lbc9601
+[00:00:57]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[00:06:44]: [Join Announcement] tuituijiangjiang
+[00:14:55]: [Resurrect Announcement] lbc9601 复活自： 试金石.
+[00:20:51]: [Leave Announcement] tuituijiangjiang
+[00:54:26]: [Leave Announcement] lbc9601

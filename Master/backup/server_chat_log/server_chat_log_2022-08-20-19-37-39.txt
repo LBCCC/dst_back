@@ -1,0 +1,16 @@
+[00:01:08]: [Join Announcement] lbc9601
+[00:07:04]: [Join Announcement] tuituijiangjiang
+[00:25:34]: [Death Announcement] tuituijiangjiang 死于： 触手。他变成了可怕的鬼魂！
+[00:25:38]: [Death Announcement] lbc9601 死于： 触手。他变成了可怕的鬼魂！
+[00:27:10]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[00:28:19]: [Death Announcement] tuituijiangjiang 死于： 触手。他变成了可怕的鬼魂！
+[00:32:19]: [Resurrect Announcement] lbc9601 复活自： 绚丽之门.
+[00:33:34]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[00:59:10]: [Death Announcement] lbc9601 死于： 猎犬。他变成了可怕的鬼魂！
+[00:59:18]: [Resurrect Announcement] lbc9601 复活自： 试金石.
+[01:00:19]: [Death Announcement] lbc9601 死于： 猎犬。他变成了可怕的鬼魂！
+[01:06:41]: [Resurrect Announcement] lbc9601 复活自： 绚丽之门.
+[01:09:45]: [Skin Announcement] lbc9601 legs_walter_ventriloquist
+[01:10:24]: [Skin Announcement] tuituijiangjiang webber_beard_punk
+[01:37:24]: [Leave Announcement] lbc9601
+[01:37:25]: [Leave Announcement] tuituijiangjiang
