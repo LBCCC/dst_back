@@ -1,0 +1,1316 @@
+[00:00:00]: PersistRootStorage is now /Users/bclin/Documents/Klei//DoNotStarveTogether/855921552/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 519602
+[00:00:00]: Current time: Sun Aug 21 17:52:43 2022
+
+[00:00:00]: Don't Starve Together: 519602 OSX
+[00:00:00]: Build Date: 7260
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 48597 -persistent_storage_root /Users/bclin/Documents/Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198816187280 -ownerdir 855921552 -clouddir 855921552 -backup_log_count 25 -backup_log_period 0 -ugc_directory /Users/bclin/Library/Application Support/Steam/steamapps/workshop -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (13047001088)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:0.71
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (13056536576)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: OnLoadPermissionList: /Users/bclin/Documents/Klei//DoNotStarveTogether/855921552/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (13058646016)
+[00:00:01]: OnLoadPermissionList: /Users/bclin/Documents/Klei//DoNotStarveTogether/855921552/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: /Users/bclin/Documents/Klei//DoNotStarveTogether/855921552/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198816187280
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Darwin
+    version                   21.5.0
+    platformSpecific          
+    architecture              64-bit
+  CPU                       
+    clockSpeed                2400
+    name                      Apple M1
+    manufacturer              Apple M1
+    numCores                  8
+    features                  
+  RAM                       
+    megsOfRam                 8192
+  GPU                       
+    megsOfRam                 0
+    videoModeDescription      
+    name                      
+    driverVersion             
+    driverDate                
+    refreshRate               158883376
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-378160973	
+[00:00:02]: modoverrides.lua enabling workshop-458587300	
+[00:00:02]: modoverrides.lua enabling workshop-666155465	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-458587300_CLIENT	
+[00:00:02]: Loading mod: workshop-458587300 (Fast Travel) Version:1.1.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-666155465_CLIENT	
+[00:00:02]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:02]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:02]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:00:02]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:00:02]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:02]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:02]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:02]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:02]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:02]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:02]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:02]: ShowMe version:	0.58	
+[00:00:02]: show_food_units	-1	-1	-1	
+[00:00:02]: show_uses	-1	-1	-1	
+[00:00:02]: Detected language for ShowMe: 	auto	zh	
+[00:00:02]: Mod: workshop-458587300 (Fast Travel)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-458587300 (Fast Travel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-458587300 (Fast Travel)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering Server mod namespace "showmeshint"
+[00:00:03]: Registering Server mod namespace "workshop-378160973"
+[00:00:03]: Registering Server mod namespace "showme"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:04]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-458587300 (Fast Travel)	Registering prefabs	
+[00:00:04]: Mod: workshop-458587300 (Fast Travel)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (13061816320)
+[00:00:04]: FilesExistAsyncThread started (20370 files)...
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 46757818 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [IPC] Signal created '/DST_Master_Kill'  #0xab
+[00:00:04]: [IPC] Registering handler for signal #0xab
+[00:00:04]: [IPC] Signal created '/DST_Master_ShutdownNoSave'  #0xac
+[00:00:04]: [IPC] Registering handler for signal #0xac
+[00:00:04]: [IPC] Signal created '/DST_Master_Starting'  #0xad
+[00:00:04]: [IPC] Sending signal.... #0xad
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Cached userid (null) saved to /Users/bclin/Documents/Klei//DoNotStarveTogether/855921552/Cluster_1/Master/save/cached_userid
+[00:00:05]: Received (KU_Y-Tulxw4) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: false
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 8766
+[00:00:05]:   SteamMasterServerPort: 27016
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: true
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 2
+[00:00:05]:   GameMode: endless
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: social
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-458587300	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	desc	 V: 	标准《饥荒》体验。	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:05]: 	K: 	location	 V: 	forest	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	标准森林	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 0x6000068f0800	
+[00:00:05]: 		K: 	alternatehunt	 V: 	default	
+[00:00:05]: 		K: 	angrybees	 V: 	default	
+[00:00:05]: 		K: 	antliontribute	 V: 	default	
+[00:00:05]: 		K: 	autumn	 V: 	default	
+[00:00:05]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:05]: 		K: 	bats_setting	 V: 	default	
+[00:00:05]: 		K: 	bearger	 V: 	default	
+[00:00:05]: 		K: 	beefalo	 V: 	default	
+[00:00:05]: 		K: 	beefaloheat	 V: 	default	
+[00:00:05]: 		K: 	beequeen	 V: 	default	
+[00:00:05]: 		K: 	bees	 V: 	default	
+[00:00:05]: 		K: 	bees_setting	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	default	
+[00:00:05]: 		K: 	birds	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	default	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:05]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:05]: 		K: 	butterfly	 V: 	default	
+[00:00:05]: 		K: 	buzzard	 V: 	default	
+[00:00:05]: 		K: 	cactus	 V: 	default	
+[00:00:05]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:05]: 		K: 	carrot	 V: 	default	
+[00:00:05]: 		K: 	carrots_regrowth	 V: 	fast	
+[00:00:05]: 		K: 	catcoon	 V: 	default	
+[00:00:05]: 		K: 	catcoons	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	cookiecutters	 V: 	default	
+[00:00:05]: 		K: 	crabking	 V: 	default	
+[00:00:05]: 		K: 	crow_carnival	 V: 	default	
+[00:00:05]: 		K: 	day	 V: 	default	
+[00:00:05]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:05]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	deerclops	 V: 	default	
+[00:00:05]: 		K: 	dragonfly	 V: 	default	
+[00:00:05]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:05]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:05]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:05]: 		K: 	eyeofterror	 V: 	default	
+[00:00:05]: 		K: 	fishschools	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	default	
+[00:00:05]: 		K: 	flowers	 V: 	default	
+[00:00:05]: 		K: 	flowers_regrowth	 V: 	fast	
+[00:00:05]: 		K: 	frograin	 V: 	default	
+[00:00:05]: 		K: 	frogs	 V: 	default	
+[00:00:05]: 		K: 	fruitfly	 V: 	default	
+[00:00:05]: 		K: 	gnarwail	 V: 	default	
+[00:00:05]: 		K: 	goosemoose	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	default	
+[00:00:05]: 		K: 	grassgekkos	 V: 	default	
+[00:00:05]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:05]: 		K: 	has_ocean	 V: 	true	
+[00:00:05]: 		K: 	hound_mounds	 V: 	default	
+[00:00:05]: 		K: 	houndmound	 V: 	default	
+[00:00:05]: 		K: 	hounds	 V: 	default	
+[00:00:05]: 		K: 	hunt	 V: 	default	
+[00:00:05]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	klaus	 V: 	default	
+[00:00:05]: 		K: 	krampus	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:05]: 		K: 	lightning	 V: 	default	
+[00:00:05]: 		K: 	lightninggoat	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	lureplants	 V: 	default	
+[00:00:05]: 		K: 	malbatross	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	merm	 V: 	default	
+[00:00:05]: 		K: 	merms	 V: 	default	
+[00:00:05]: 		K: 	meteorshowers	 V: 	default	
+[00:00:05]: 		K: 	meteorspawner	 V: 	default	
+[00:00:05]: 		K: 	moles	 V: 	default	
+[00:00:05]: 		K: 	moles_setting	 V: 	default	
+[00:00:05]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:05]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:05]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:05]: 		K: 	moon_carrot	 V: 	default	
+[00:00:05]: 		K: 	moon_fissure	 V: 	default	
+[00:00:05]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:05]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:05]: 		K: 	moon_rock	 V: 	default	
+[00:00:05]: 		K: 	moon_sapling	 V: 	default	
+[00:00:05]: 		K: 	moon_spider	 V: 	default	
+[00:00:05]: 		K: 	moon_spiders	 V: 	default	
+[00:00:05]: 		K: 	moon_starfish	 V: 	default	
+[00:00:05]: 		K: 	moon_tree	 V: 	default	
+[00:00:05]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	mosquitos	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	default	
+[00:00:05]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:05]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:05]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:05]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:05]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:05]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:05]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:05]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:05]: 		K: 	palmconetree	 V: 	default	
+[00:00:05]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	penguins	 V: 	default	
+[00:00:05]: 		K: 	penguins_moon	 V: 	default	
+[00:00:05]: 		K: 	perd	 V: 	default	
+[00:00:05]: 		K: 	petrification	 V: 	default	
+[00:00:05]: 		K: 	pigs	 V: 	default	
+[00:00:05]: 		K: 	pigs_setting	 V: 	default	
+[00:00:05]: 		K: 	pirateraids	 V: 	default	
+[00:00:05]: 		K: 	ponds	 V: 	default	
+[00:00:05]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:05]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	rabbits	 V: 	default	
+[00:00:05]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:05]: 		K: 	reeds	 V: 	default	
+[00:00:05]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	default	
+[00:00:05]: 		K: 	rock	 V: 	default	
+[00:00:05]: 		K: 	rock_ice	 V: 	default	
+[00:00:05]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:05]: 		K: 	sapling	 V: 	default	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:05]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:05]: 		K: 	sharks	 V: 	default	
+[00:00:05]: 		K: 	spawnprotection	 V: 	default	
+[00:00:05]: 		K: 	specialevent	 V: 	default	
+[00:00:05]: 		K: 	spider_warriors	 V: 	default	
+[00:00:05]: 		K: 	spiderqueen	 V: 	default	
+[00:00:05]: 		K: 	spiders	 V: 	default	
+[00:00:05]: 		K: 	spiders_setting	 V: 	default	
+[00:00:05]: 		K: 	spring	 V: 	default	
+[00:00:05]: 		K: 	squid	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	default	
+[00:00:05]: 		K: 	summer	 V: 	default	
+[00:00:05]: 		K: 	summerhounds	 V: 	default	
+[00:00:05]: 		K: 	tallbirds	 V: 	default	
+[00:00:05]: 		K: 	task_set	 V: 	default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	terrariumchest	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	always	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	tumbleweed	 V: 	default	
+[00:00:05]: 		K: 	twiggytrees_regrowth	 V: 	fast	
+[00:00:05]: 		K: 	walrus	 V: 	default	
+[00:00:05]: 		K: 	walrus_setting	 V: 	default	
+[00:00:05]: 		K: 	wasps	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	wildfires	 V: 	default	
+[00:00:05]: 		K: 	winter	 V: 	default	
+[00:00:05]: 		K: 	winterhounds	 V: 	default	
+[00:00:05]: 		K: 	winters_feast	 V: 	default	
+[00:00:05]: 		K: 	wobsters	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	medium	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:05]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:05]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:05]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:05]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:05]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:05]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:05]: 	K: 	random_set_pieces	 V: 	table: 0x6000068f07c0	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:05]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:05]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:05]: 		K: 	5	 V: 	Chessy_1	
+[00:00:05]: 		K: 	6	 V: 	Chessy_2	
+[00:00:05]: 		K: 	7	 V: 	Chessy_3	
+[00:00:05]: 		K: 	8	 V: 	Chessy_4	
+[00:00:05]: 		K: 	9	 V: 	Chessy_5	
+[00:00:05]: 		K: 	10	 V: 	Chessy_6	
+[00:00:05]: 		K: 	11	 V: 	Maxwell1	
+[00:00:05]: 		K: 	12	 V: 	Maxwell2	
+[00:00:05]: 		K: 	13	 V: 	Maxwell3	
+[00:00:05]: 		K: 	14	 V: 	Maxwell4	
+[00:00:05]: 		K: 	15	 V: 	Maxwell6	
+[00:00:05]: 		K: 	16	 V: 	Maxwell7	
+[00:00:05]: 		K: 	17	 V: 	Warzone_1	
+[00:00:05]: 		K: 	18	 V: 	Warzone_2	
+[00:00:05]: 		K: 	19	 V: 	Warzone_3	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 0x6000068f0880	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	required_setpieces	 V: 	table: 0x6000068f0780	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:05]: 		K: 	2	 V: 	Maxwell5	
+[00:00:05]: 	K: 	settings_desc	 V: 	标准《饥荒》体验。	
+[00:00:05]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:05]: 	K: 	settings_name	 V: 	标准森林	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 0x6000068f0980	
+[00:00:05]: 	K: 	version	 V: 	4	
+[00:00:05]: 	K: 	worldgen_desc	 V: 	标准《饥荒》体验。	
+[00:00:05]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:05]: 	K: 	worldgen_name	 V: 	标准森林	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.04 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: lua_close took 0.04 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x64
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:07]:   taskgrouplist:	default	联机版	
+[00:00:07]:   taskgrouplist:	classic	经典	
+[00:00:07]:   taskgrouplist:	cave_default	地下	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:07]: Running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-378160973	
+[00:00:07]: modoverrides.lua enabling workshop-458587300	
+[00:00:07]: modoverrides.lua enabling workshop-666155465	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-458587300	
+[00:00:07]: Loading mod: workshop-458587300 (Fast Travel) Version:1.1.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:07]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:07]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:07]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:00:07]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:00:07]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:07]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:07]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:07]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:07]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:07]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:07]: ShowMe version:	0.58	
+[00:00:07]: show_food_units	-1	-1	-1	
+[00:00:07]: show_uses	-1	-1	-1	
+[00:00:07]: Detected language for ShowMe: 	auto	zh	
+[00:00:07]: Mod: workshop-458587300 (Fast Travel)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-458587300 (Fast Travel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-458587300 (Fast Travel)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: Registering Server mod namespace "showmeshint"
+[00:00:07]: Registering Server mod namespace "workshop-378160973"
+[00:00:07]: Registering Server mod namespace "showme"
+[00:00:07]: PlayerDeaths could not load morgue	
+[00:00:07]: PlayerHistory could not load player_history	
+[00:00:07]: ServerPreferences could not load server_preferences	
+[00:00:07]: ConsoleScreenSettings could not load consolescreen	
+[00:00:07]: bloom_enabled	true	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: Loading world: session/519CFC0434733AA8/0000000054	
+[00:00:07]: Save file is at version 5.12	
+[00:00:07]: Klump load on boot started.	
+[00:00:07]: Klump files loaded: 	0	
+[00:00:07]: 	Unload FE	
+[00:00:07]: 	Unload FE done	
+[00:00:08]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:08]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-458587300 (Fast Travel)	Registering prefabs	
+[00:00:08]: Mod: workshop-458587300 (Fast Travel)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:08]: 	LOAD BE	
+[00:00:13]: 	LOAD BE: done	
+[00:00:13]: Begin Session: 519CFC0434733AA8
+[00:00:13]: saving to server_temp/server_save	
+[00:00:13]: OVERRIDE: setting	flowers_regrowth	to	fast	
+[00:00:13]: OVERRIDE: setting	carrots_regrowth	to	fast	
+[00:00:13]: OVERRIDE: setting	twiggytrees_regrowth	to	fast	
+[00:00:13]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:13]: Loading 19 new character(s)	
+[00:00:13]: Total 19 character(s) loaded	
+[00:00:14]: Loading Nav Grid	
+[00:00:14]: World generated on build 519602 with save version: 5.12, using seed: 1660989273	
+[00:00:14]: setting 	summerlength	15	
+[00:00:14]: setting 	cavemoonphase	threequarter	
+[00:00:14]: setting 	iscavefullmoon	false	
+[00:00:14]: setting 	isnightmaredawn	false	
+[00:00:14]: setting 	elapseddaysinseason	13	
+[00:00:14]: setting 	isfullmoon	false	
+[00:00:14]: setting 	moisture	2755.2944335938	
+[00:00:14]: setting 	cavephase	day	
+[00:00:14]: setting 	iscavewaxingmoon	true	
+[00:00:14]: setting 	isnightmarewild	false	
+[00:00:14]: setting 	nightmaretimeinphase	0	
+[00:00:14]: setting 	precipitationrate	0.83758509159088	
+[00:00:14]: setting 	iswet	true	
+[00:00:14]: setting 	isnewmoon	false	
+[00:00:14]: setting 	precipitation	rain	
+[00:00:14]: setting 	israining	true	
+[00:00:14]: setting 	isnightmarewarn	false	
+[00:00:14]: setting 	iswinter	false	
+[00:00:14]: setting 	season	spring	
+[00:00:14]: setting 	remainingdaysinseason	7	
+[00:00:14]: setting 	winterlength	15	
+[00:00:14]: setting 	iscaveday	true	
+[00:00:14]: setting 	moistureceil	3898.6652832031	
+[00:00:14]: setting 	isday	true	
+[00:00:14]: setting 	springlength	20	
+[00:00:14]: setting 	wetness	50.99861907959	
+[00:00:14]: setting 	iscavedusk	false	
+[00:00:14]: setting 	isalterawake	false	
+[00:00:14]: setting 	isnightmarecalm	false	
+[00:00:14]: setting 	isnight	false	
+[00:00:14]: setting 	isdusk	false	
+[00:00:14]: setting 	isspring	true	
+[00:00:14]: setting 	isautumn	false	
+[00:00:14]: setting 	issnowing	false	
+[00:00:14]: setting 	iswaxingmoon	true	
+[00:00:14]: setting 	phase	day	
+[00:00:14]: setting 	snowlevel	0	
+[00:00:14]: setting 	issnowcovered	false	
+[00:00:14]: setting 	autumnlength	20	
+[00:00:14]: setting 	pop	1	
+[00:00:14]: setting 	nightmaretime	0	
+[00:00:14]: setting 	seasonprogress	0.65	
+[00:00:14]: setting 	moonphase	threequarter	
+[00:00:14]: setting 	nightmarephase	none	
+[00:00:14]: setting 	cycles	48	
+[00:00:14]: setting 	timeinphase	0.2301698811849	
+[00:00:14]: setting 	iscavenight	false	
+[00:00:14]: setting 	iscavenewmoon	false	
+[00:00:14]: setting 	issummer	false	
+[00:00:14]: setting 	temperature	40.808558227888	
+[00:00:14]: setting 	time	0.07192808787028	
+[00:00:17]: Reconstructing topology	
+[00:00:17]: 	...Sorting points	
+[00:00:17]: 	...Sorting edges	
+[00:00:17]: 	...Connecting nodes	
+[00:00:17]: 	...Validating connections	
+[00:00:17]: 	...Housekeeping	
+[00:00:17]: 	...Done!	
+[00:00:17]: 1 uploads added to server. From server_temp
+[00:00:17]: About to start a shard with these settings:
+[00:00:17]:   ShardName: [SHDMASTER]
+[00:00:17]:   ShardID: 1
+[00:00:17]:   ShardRole: MASTER
+[00:00:17]:   MasterHost: (null)
+[00:00:17]:   MasterBind: 127.0.0.1
+[00:00:17]:   MasterPort: 10888
+[00:00:17]: [Shard] Starting master server
+[00:00:18]: [Shard] Shard server started on port: 10888
+[00:00:18]: [IPC] Signal created '/DST_Master_Ready'  #0xaf
+[00:00:18]: [IPC] Sending signal.... #0xaf
+[00:00:18]: Telling Client our new session identifier: 519CFC0434733AA8
+[00:00:18]: Check for write access: TRUE
+[00:00:18]: Check for read access: TRUE
+[00:00:18]: Available disk space for save files: 46495395 MB
+[00:00:18]: ModIndex: Load sequence finished successfully.	
+[00:00:18]: Reset() returning
+[00:00:18]: Validating portal[5] <-> 846547125[5] (inactive)	
+[00:00:18]: Validating portal[1] <-> 846547125[1] (inactive)	
+[00:00:18]: Validating portal[3] <-> 846547125[3] (inactive)	
+[00:00:18]: Validating portal[7] <-> 846547125[7] (inactive)	
+[00:00:18]: Validating portal[2] <-> 846547125[2] (inactive)	
+[00:00:18]: Validating portal[9] <-> 846547125[9] (inactive)	
+[00:00:18]: Validating portal[10] <-> 846547125[10] (inactive)	
+[00:00:18]: Validating portal[6] <-> 846547125[6] (inactive)	
+[00:00:18]: Validating portal[4] <-> 846547125[4] (inactive)	
+[00:00:18]: Validating portal[8] <-> 846547125[8] (inactive)	
+[00:00:18]: Sim paused
+[00:00:31]: Server registered via geo DNS in Sing
+[00:00:31]: [Shard] Secondary shar Caves(846547125) connected: [LAN] 127.0.0.1
+[00:00:31]: [Shard] Secondary Caves(846547125) ready!
+[00:00:31]: World 846547125 is now connected	
+[00:00:31]: Validating portal[5] <-> 846547125[5] (disabled)	
+[00:00:31]: Validating portal[1] <-> 846547125[1] (disabled)	
+[00:00:31]: Validating portal[3] <-> 846547125[3] (disabled)	
+[00:00:31]: Validating portal[7] <-> 846547125[7] (disabled)	
+[00:00:31]: Validating portal[2] <-> 846547125[2] (disabled)	
+[00:00:31]: Validating portal[9] <-> 846547125[9] (disabled)	
+[00:00:31]: Validating portal[10] <-> 846547125[10] (disabled)	
+[00:00:31]: Validating portal[6] <-> 846547125[6] (disabled)	
+[00:00:31]: Validating portal[4] <-> 846547125[4] (disabled)	
+[00:00:31]: Validating portal[8] <-> 846547125[8] (disabled)	
+[00:00:33]: New incoming connection 127.0.0.1|53817 <4785881844473435586>
+[00:00:33]: Client connected from [LAN] 127.0.0.1|53817 <4785881844473435586>
+[00:00:33]: ValidateGameSessionToken GUID<4785881844473435586>
+[00:00:34]: Client authenticated: (KU_Y-Tulxw4) lbc9601
+[00:00:34]: [Steam] Authenticated host '76561198816187280'
+[00:00:35]: There is no active event to validate against.
+[00:00:35]: [Shard] Read save location file for (KU_Y-Tulxw4)
+[00:00:54]: Resuming user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000054
+[00:00:54]: Spawning player at: [Load] (-237.65, -0.00, 521.58)	
+[00:00:54]: Sim unpaused
+[00:01:16]: Could not find anim [death] in bank [ghost]
+[00:01:16]: Serializing user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000055
+[00:01:24]: [P2P] Session request for '76561199384089302'
+[00:01:26]: Server Autopaused	
+[00:01:29]: [P2P] Create session: 75.58.92.170|1 '76561199384089302'
+[00:01:29]: [P2P] Received from 75.58.92.170|1 '76561199384089302'
+[00:01:29]: [P2P] Sent to 75.58.92.170|1 '76561199384089302'
+[00:01:29]: New incoming connection 75.58.92.170|1 <3688196332341461911>
+[00:01:29]: Client connected from 75.58.92.170|1 <3688196332341461911>
+[00:01:29]: ValidateGameSessionToken GUID<3688196332341461911>
+[00:01:30]: Client authenticated: (KU_qRBOnXi4) tuituijiangjiang
+[00:01:30]: [Steam] SendUserConnectAndAuthenticate for '76561199384089302'
+[00:01:31]: KU_Y-Tulxw4	running text command:	rollback	true	
+[00:01:32]: [Steam] Authenticated client '76561199384089302'
+[00:01:33]: There is no active event to validate against.
+[00:01:33]: [Shard] Read save location file for (KU_qRBOnXi4)
+[00:02:04]: Resuming user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000054
+[00:02:04]: Could not find anim [idle_loop] in bank [ghost]
+[00:02:04]: Spawning player at: [Load] (-161.66, 0.00, 193.29)	
+[00:02:11]: Server Unpaused	
+[00:02:16]: Received world rollback request: count=1	
+[00:02:16]: Truncating to snapshot #54...
+[00:02:16]:  - session/519CFC0434733AA8/A7KBSTSBVFK4/0000000055
+[00:02:16]:    1 file(s) removed
+[00:02:16]: Collecting garbage...
+[00:02:16]: lua_gc took 0.10 seconds
+[00:02:16]: ~ShardLuaProxy()
+[00:02:16]: ~cEventLeaderboardProxy()
+[00:02:16]: ~ItemServerLuaProxy()
+[00:02:16]: ~InventoryLuaProxy()
+[00:02:16]: ~NetworkLuaProxy()
+[00:02:16]: ~SimLuaProxy()
+[00:02:17]: lua_close took 0.20 seconds
+[00:02:17]: ReleaseAll
+[00:02:17]: ReleaseAll Finished
+[00:02:17]: cGame::StartPlaying
+[00:02:17]: AppVersion::GetArchitecture() x64
+[00:02:17]: LOADING LUA
+[00:02:17]: DoLuaFile scripts/main.lua
+[00:02:17]: DoLuaFile loading buffer scripts/main.lua
+[00:02:17]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:02:18]:   taskgrouplist:	default	联机版	
+[00:02:18]:   taskgrouplist:	classic	经典	
+[00:02:18]:   taskgrouplist:	cave_default	地下	
+[00:02:18]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:02:18]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:02:18]: Running main.lua
+	
+[00:02:18]: loaded modindex	
+[00:02:18]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:02:18]: SUCCESS: Loaded modoverrides.lua	
+[00:02:18]: modoverrides.lua enabling workshop-378160973	
+[00:02:18]: modoverrides.lua enabling workshop-458587300	
+[00:02:18]: modoverrides.lua enabling workshop-666155465	
+[00:02:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:02:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:02:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:02:18]: Could not load mod_config_data/modconfiguration_workshop-458587300	
+[00:02:18]: Loading mod: workshop-458587300 (Fast Travel) Version:1.1.0	
+[00:02:18]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:02:18]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:02:18]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:02:18]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:02:18]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:02:18]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:02:18]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:02:18]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:02:18]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:02:18]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:02:18]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:02:18]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:02:18]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:02:18]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:02:18]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:02:18]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:02:18]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:02:18]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option lang with value auto	
+[00:02:18]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:02:18]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:02:18]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:02:18]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:02:18]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:18]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:02:18]: ShowMe version:	0.58	
+[00:02:18]: show_food_units	-1	-1	-1	
+[00:02:18]: show_uses	-1	-1	-1	
+[00:02:18]: Detected language for ShowMe: 	auto	zh	
+[00:02:18]: Mod: workshop-458587300 (Fast Travel)	Loading modworldgenmain.lua	
+[00:02:18]: Mod: workshop-458587300 (Fast Travel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:18]: Mod: workshop-458587300 (Fast Travel)	Loading modmain.lua	
+[00:02:18]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:02:18]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:18]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:02:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:02:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:02:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:02:18]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:02:18]: LOADING LUA SUCCESS
+[00:02:18]: Registering Server mod namespace "showmeshint"
+[00:02:18]: Registering Server mod namespace "workshop-378160973"
+[00:02:18]: Registering Server mod namespace "showme"
+[00:02:18]: PlayerDeaths could not load morgue	
+[00:02:18]: PlayerHistory could not load player_history	
+[00:02:18]: ServerPreferences could not load server_preferences	
+[00:02:18]: ConsoleScreenSettings could not load consolescreen	
+[00:02:18]: bloom_enabled	true	
+[00:02:18]: OnFilesLoaded()	
+[00:02:18]: OnUpdatePurchaseStateComplete	
+[00:02:18]: Loading world: session/519CFC0434733AA8/0000000054	
+[00:02:18]: Save file is at version 5.12	
+[00:02:18]: Klump load on boot started.	
+[00:02:18]: Klump files loaded: 	0	
+[00:02:18]: 	Unload characters	
+[00:02:18]: 	BE assets already loaded	
+[00:02:19]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:02:19]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:02:19]: Mod: workshop-458587300 (Fast Travel)	Registering prefabs	
+[00:02:19]: Mod: workshop-458587300 (Fast Travel)	  Registering default mod prefab	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:02:19]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:02:19]: Begin Session: 519CFC0434733AA8
+[00:02:19]: Stomping previously assigned session identifier, two loads issued.
+[00:02:19]: saving to server_temp/server_save	
+[00:02:19]: OVERRIDE: setting	flowers_regrowth	to	fast	
+[00:02:19]: OVERRIDE: setting	carrots_regrowth	to	fast	
+[00:02:19]: OVERRIDE: setting	twiggytrees_regrowth	to	fast	
+[00:02:19]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:02:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:02:19]: Loading 19 new character(s)	
+[00:02:19]: Total 19 character(s) loaded	
+[00:02:20]: Loading Nav Grid	
+[00:02:20]: World generated on build 519602 with save version: 5.12, using seed: 1660989273	
+[00:02:20]: setting 	summerlength	15	
+[00:02:20]: setting 	cavemoonphase	threequarter	
+[00:02:20]: setting 	iscavefullmoon	false	
+[00:02:20]: setting 	isnightmaredawn	false	
+[00:02:20]: setting 	elapseddaysinseason	13	
+[00:02:20]: setting 	isfullmoon	false	
+[00:02:20]: setting 	moisture	2755.2944335938	
+[00:02:20]: setting 	cavephase	day	
+[00:02:20]: setting 	iscavewaxingmoon	true	
+[00:02:20]: setting 	isnightmarewild	false	
+[00:02:20]: setting 	nightmaretimeinphase	0	
+[00:02:20]: setting 	precipitationrate	0.83758509159088	
+[00:02:20]: setting 	iswet	true	
+[00:02:20]: setting 	isnewmoon	false	
+[00:02:20]: setting 	precipitation	rain	
+[00:02:20]: setting 	israining	true	
+[00:02:20]: setting 	isnightmarewarn	false	
+[00:02:20]: setting 	iswinter	false	
+[00:02:20]: setting 	season	spring	
+[00:02:20]: setting 	remainingdaysinseason	7	
+[00:02:20]: setting 	winterlength	15	
+[00:02:20]: setting 	iscaveday	true	
+[00:02:20]: setting 	moistureceil	3898.6652832031	
+[00:02:20]: setting 	isday	true	
+[00:02:20]: setting 	springlength	20	
+[00:02:20]: setting 	wetness	50.99861907959	
+[00:02:20]: setting 	iscavedusk	false	
+[00:02:20]: setting 	isalterawake	false	
+[00:02:20]: setting 	isnightmarecalm	false	
+[00:02:20]: setting 	isnight	false	
+[00:02:20]: setting 	isdusk	false	
+[00:02:20]: setting 	isspring	true	
+[00:02:20]: setting 	isautumn	false	
+[00:02:20]: setting 	issnowing	false	
+[00:02:20]: setting 	iswaxingmoon	true	
+[00:02:20]: setting 	phase	day	
+[00:02:20]: setting 	snowlevel	0	
+[00:02:20]: setting 	issnowcovered	false	
+[00:02:20]: setting 	autumnlength	20	
+[00:02:20]: setting 	pop	1	
+[00:02:20]: setting 	nightmaretime	0	
+[00:02:20]: setting 	seasonprogress	0.65	
+[00:02:20]: setting 	moonphase	threequarter	
+[00:02:20]: setting 	nightmarephase	none	
+[00:02:20]: setting 	cycles	48	
+[00:02:20]: setting 	timeinphase	0.2301698811849	
+[00:02:20]: setting 	iscavenight	false	
+[00:02:20]: setting 	iscavenewmoon	false	
+[00:02:20]: setting 	issummer	false	
+[00:02:20]: setting 	temperature	40.808558227888	
+[00:02:20]: setting 	time	0.07192808787028	
+[00:02:23]: Reconstructing topology	
+[00:02:23]: 	...Sorting points	
+[00:02:23]: 	...Sorting edges	
+[00:02:23]: 	...Connecting nodes	
+[00:02:23]: 	...Validating connections	
+[00:02:23]: 	...Housekeeping	
+[00:02:23]: 	...Done!	
+[00:02:23]: 1 uploads added to server. From server_temp
+[00:02:23]: World 846547125 is now connected	
+[00:02:23]: [IPC] Sending signal.... #0xaf
+[00:02:23]: Telling Client our new session identifier: 519CFC0434733AA8
+[00:02:23]: Check for write access: TRUE
+[00:02:23]: Check for read access: TRUE
+[00:02:23]: Available disk space for save files: 46496390 MB
+[00:02:23]: ModIndex: Load sequence finished successfully.	
+[00:02:23]: Reset() returning
+[00:02:23]: [Shard] Secondary shard 'Caves(846547125)' restarting...
+[00:02:23]: World 846547125 is now disconnected	
+[00:02:23]: Validating portal[7] <-> 846547125[7] (inactive)	
+[00:02:23]: Validating portal[2] <-> 846547125[2] (inactive)	
+[00:02:23]: Validating portal[5] <-> 846547125[5] (inactive)	
+[00:02:23]: Validating portal[8] <-> 846547125[8] (inactive)	
+[00:02:23]: Validating portal[10] <-> 846547125[10] (inactive)	
+[00:02:23]: Validating portal[4] <-> 846547125[4] (inactive)	
+[00:02:23]: Validating portal[3] <-> 846547125[3] (inactive)	
+[00:02:23]: Validating portal[6] <-> 846547125[6] (inactive)	
+[00:02:23]: Validating portal[1] <-> 846547125[1] (inactive)	
+[00:02:23]: Validating portal[9] <-> 846547125[9] (inactive)	
+[00:02:23]: Sim paused
+[00:02:29]: [Shard] Secondary Caves(846547125) ready!
+[00:02:29]: World 846547125 is now connected	
+[00:02:29]: Validating portal[7] <-> 846547125[7] (disabled)	
+[00:02:29]: Validating portal[2] <-> 846547125[2] (disabled)	
+[00:02:29]: Validating portal[5] <-> 846547125[5] (disabled)	
+[00:02:29]: Validating portal[8] <-> 846547125[8] (disabled)	
+[00:02:29]: Validating portal[10] <-> 846547125[10] (disabled)	
+[00:02:29]: Validating portal[4] <-> 846547125[4] (disabled)	
+[00:02:29]: Validating portal[3] <-> 846547125[3] (disabled)	
+[00:02:29]: Validating portal[6] <-> 846547125[6] (disabled)	
+[00:02:29]: Validating portal[1] <-> 846547125[1] (disabled)	
+[00:02:29]: Validating portal[9] <-> 846547125[9] (disabled)	
+[00:02:36]: Restarting player migration on master server
+[00:02:36]: [Shard] Read save location file for (KU_Y-Tulxw4)
+[00:02:36]: Resuming user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000054
+[00:02:36]: Spawning player at: [Load] (-237.65, -0.00, 521.58)	
+[00:02:36]: Sim unpaused
+[00:02:39]: Restarting player migration on master server
+[00:02:39]: [Shard] Read save location file for (KU_qRBOnXi4)
+[00:02:39]: Resuming user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000054
+[00:02:39]: Could not find anim [idle_loop] in bank [ghost]
+[00:02:39]: Spawning player at: [Load] (-161.66, 0.00, 193.29)	
+[00:03:07]: Could not find anim [idle_loop] in bank [ghost]
+[00:03:10]: Serializing user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000055
+[00:03:43]: Remote left click out of range	
+[00:03:43]: Remote left click out of range	
+[00:04:20]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wendy" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wendy", "wendy", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wendy" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wendy" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(89.85, 360.92)
+[00:04:33]: Could not find anim [death] in bank [ghost]
+[00:04:33]: Serializing user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000055
+[00:05:32]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "abigail" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("abigail", "abigail", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "abigail" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "abigail" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(92.14, 356.85)
+[00:07:20]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(98.88, 347.69)
+[00:07:21]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(99.15, 347.02)
+[00:07:21]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(97.07, 347.76)
+[00:07:21]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(96.60, 347.82)
+[00:07:22]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(95.85, 347.84)
+[00:07:22]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(95.19, 347.85)
+[00:07:22]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(94.13, 347.85)
+[00:07:22]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(93.10, 347.86)
+[00:07:22]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(92.23, 347.86)
+[00:07:23]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(91.14, 347.86)
+[00:07:23]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(90.25, 347.86)
+[00:07:23]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(89.31, 347.86)
+[00:07:23]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function onturnon(inst) if inst._stage == 3 then if inst.AnimState:IsCurrentAnimation("proximity_pre") or inst.AnimState:IsCurrentAnimation("proximity_loop") or inst.AnimState:IsCurrentAnimation("place3") then inst.AnimState:PushAnimation("proximity_pre") else inst.AnimState:PlayAnimation("proximity_pre") end inst.AnimState:PushAnimation("proximity_loop", true) end end local function onturnoff(inst) if inst._stage == 3 then inst.AnimState:PlayAnimation("proximity_pst") inst.AnimState:PushAnimation("idle3", false) end end if player ~= nil and player.Transform then	if "wolfgang" == "klaus" then	local pos = player:GetPosition() local minplayers = math.huge local spawnx, spawnz FindWalkableOffset(pos,	math.random() * 2 * PI, 33, 16, true, true, function(pt) local count = #FindPlayersInRangeSq(pt.x, pt.y, pt.z, 625) if count < minplayers then minplayers = count spawnx, spawnz = pt.x, pt.z return count <= 0 end return false end) if spawnx == nil then local offset = FindWalkableOffset(pos, math.random() * 2 * PI, 3, 8, false, true) if offset ~= nil then spawnx, spawnz = pos.x + offset.x, pos.z + offset.z end end local klaus = SpawnPrefab("klaus") klaus.Transform:SetPosition(spawnx or pos.x, 0, spawnz or pos.z) klaus:SpawnDeer() klaus.components.knownlocations:RememberLocation("spawnpoint", pos, false) klaus.components.spawnfader:FadeIn() else local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = SpawnPrefab("wolfgang", "wolfgang", nil, "KU_Y-Tulxw4") if inst ~= nil and inst.components then	if inst.components.skinner ~= nil and IsRestrictedCharacter(inst.prefab) then inst.components.skinner:SetSkinMode("normal_skin") end if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end	else inst.Transform:SetPosition(x,y,z) if "wolfgang" == "deciduoustree" then inst:StartMonster(true) end end if not inst.components.health then if inst.components.perishable then inst.components.perishable:SetPercent(1)	end	if inst.components.finiteuses then inst.components.finiteuses:SetPercent(1) end if inst.components.fueled then inst.components.fueled:SetPercent(1) end if inst.components.temperature then	inst.components.temperature:SetTemperature(25) end if 1 ~= 1 and inst.components.follower then inst.components.follower:SetLeader(player) end if "wolfgang" == "moon_altar" then inst._stage =3 inst.AnimState:PlayAnimation("idle3")	inst:AddComponent("prototyper") inst.components.prototyper.trees = TUNING.PROTOTYPER_TREES.MOON_ALTAR_FULL inst.components.prototyper.onturnon = onturnon inst.components.prototyper.onturnoff = onturnoff inst.components.lootdropper:SetLoot({ "moon_altar_idol", "moon_altar_glass", "moon_altar_seed" }) end	end	end end	end	end) @(88.39, 347.86)
+[00:08:27]: Could not find anim [death] in bank [ghost]
+[00:08:27]: Serializing user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000055
+[00:08:53]: Could not find anim [death] in bank [ghost]
+[00:08:53]: Could not find anim [death] in bank [ghost]
+[00:08:56]: Could not find anim [death] in bank [ghost]
+[00:08:56]: Could not find anim [death] in bank [ghost]
+[00:08:56]: Could not find anim [death] in bank [ghost]
+[00:08:57]: Could not find anim [death] in bank [ghost]
+[00:08:57]: Could not find anim [death] in bank [ghost]
+[00:09:26]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then ThePlayer.components.talker:Say("该玩家与你不在同一世界！命令无法生效。") return end local i = player.components.singinginspiration if player and not player:HasTag("playerghost") and i then i:SetPercent(1) end) @(94.98, 358.14)
+[00:09:27]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then ThePlayer.components.talker:Say("该玩家与你不在同一世界！命令无法生效。") return end local h = player.components.hunger if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(94.61, 358.65)
+[00:09:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then ThePlayer.components.talker:Say("该玩家与你不在同一世界！命令无法生效。") return end local h = player.components.sanity if player and not player:HasTag("playerghost") and h then h:SetPercent(1) end) @(94.00, 359.41)
+[00:09:59]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(c_despawn(UserToPlayer('KU_qRBOnXi4'))) @(85.15, 363.17)
+[00:09:59]: Deleting user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000055
+[00:10:00]: Resuming user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000055
+[00:10:02]: Available disk space for save files: 46231608 MB
+[00:10:02]: Serializing user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000055
+[00:10:02]: Serializing world: session/519CFC0434733AA8/0000000055
+[00:11:18]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_qRBOnXi4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.60, 358.58)
+[00:11:23]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:23]: wolfgang	
+[00:11:23]: seeds	
+[00:11:23]: wolfgang	
+[00:11:23]: wolfgang	
+[00:11:23]: skeleton_player	
+[00:11:24]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:25]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:25]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:25]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:26]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:26]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:26]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:27]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:27]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:27]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:28]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:29]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:29]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:30]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(81.61, 358.74)
+[00:11:38]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(88.37, 357.76)
+[00:11:38]: wolfgang	
+[00:11:38]: farm_plant_pepper	
+[00:11:38]: wolfgang	
+[00:11:38]: weed_forgetmelots	
+[00:11:38]: wolfgang	
+[00:11:38]: skeleton_player	
+[00:11:38]: wolfgang	
+[00:11:38]: skeleton_player	
+[00:11:38]: wolfgang	
+[00:11:38]: skeleton_player	
+[00:11:38]: farm_soil	
+[00:11:38]: nutrients_overlay	
+[00:11:40]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(91.31, 357.64)
+[00:11:40]: weed_forgetmelots	
+[00:11:40]: wolfgang	
+[00:11:40]: skeleton_player	
+[00:11:40]: skeleton_player	
+[00:11:40]: wolfgang	
+[00:11:40]: farm_soil	
+[00:11:40]: wolfgang	
+[00:11:40]: skeleton_player	
+[00:11:42]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:11:42]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(93.89, 359.39)
+[00:11:42]: wolfgang	
+[00:11:44]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(87.57, 359.55)
+[00:11:44]: cookpot	
+[00:11:44]: wolfgang	
+[00:11:47]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:11:51]: [(KU_Y-Tulxw4) lbc9601] ReceiveRemoteExecute(local player = UserToPlayer('KU_Y-Tulxw4') if player == nil then UserToPlayer("KU_Y-Tulxw4").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local function InInv(b) local inv = b.components.inventoryitem return inv and inv.owner and true or false end local function CanDelete(inst) if inst and inst ~= TheWorld and not InInv(inst) and inst.Transform then if inst:HasTag("player") then if inst.userid == nil or inst.userid == "" then return true end else return true end end return false end if player and player.Transform then if player.components.burnable then player.components.burnable:Extinguish(true) end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 3) for _, obj in pairs(ents) do if CanDelete(obj) then if obj.components then if obj.components.burnable then obj.components.burnable:Extinguish(true) end if obj.components.firefx then if obj.components.firefx.extinguishsoundtest then obj.components.firefx.extinguishsoundtest = function() return true end end obj.components.firefx:Extinguish() end end if (not (obj.prefab == "minerhatlight" or "lanternlight" or "yellowamuletlight" or "slurperlight" or "redlanternlight" or "lighterfire" or "torchfire" or "torchfire_rag" or "torchfire_spooky" or "torchfire_shadow")) or (obj.entity:GetParent() == nil) then obj:Remove() print(obj.prefab) end end end end) @(87.41, 370.44)
+[00:11:51]: goldenaxe	
+[00:11:51]: seeds	
+[00:11:51]: footballhat	
+[00:11:51]: skeleton_player	
+[00:11:51]: wendy	
+[00:11:51]: footballhat	
+[00:11:51]: researchlab2	
+[00:11:51]: hammer	
+[00:11:51]: petals	
+[00:11:51]: torch	
+[00:11:51]: charcoal	
+[00:11:51]: backpack	
+[00:11:51]: log	
+[00:11:51]: goldnugget	
+[00:11:51]: rocks	
+[00:11:51]: cutgrass	
+[00:11:51]: nitre	
+[00:11:51]: flint	
+[00:11:51]: twigs	
+[00:11:51]: lightning_rod	
+[00:11:52]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:11:57]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:12:02]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:12:04]: KU_Y-Tulxw4	running text command:	rollback	true	
+[00:12:07]: Stale Component Reference: GUID 100033, scripts/prefabs/nutrients_overlay.lua:54
+[00:12:09]: Received world rollback request: count=1	
+[00:12:09]: Truncating to snapshot #55...
+[00:12:09]:  - session/519CFC0434733AA8/0000000049
+[00:12:09]:  - session/519CFC0434733AA8/A7KBSTSBVFK4/0000000049
+[00:12:09]:  - session/519CFC0434733AA8/A7MHMBCCC6O4/0000000049
+[00:12:09]:    3 file(s) removed
+[00:12:09]: Collecting garbage...
+[00:12:09]: lua_gc took 0.13 seconds
+[00:12:09]: ~ShardLuaProxy()
+[00:12:09]: ~cEventLeaderboardProxy()
+[00:12:09]: ~ItemServerLuaProxy()
+[00:12:09]: ~InventoryLuaProxy()
+[00:12:09]: ~NetworkLuaProxy()
+[00:12:09]: ~SimLuaProxy()
+[00:12:10]: lua_close took 0.22 seconds
+[00:12:10]: ReleaseAll
+[00:12:10]: ReleaseAll Finished
+[00:12:10]: cGame::StartPlaying
+[00:12:10]: AppVersion::GetArchitecture() x64
+[00:12:10]: LOADING LUA
+[00:12:10]: DoLuaFile scripts/main.lua
+[00:12:10]: DoLuaFile loading buffer scripts/main.lua
+[00:12:10]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:12:11]:   taskgrouplist:	default	联机版	
+[00:12:11]:   taskgrouplist:	classic	经典	
+[00:12:11]:   taskgrouplist:	cave_default	地下	
+[00:12:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:12:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:12:11]: Running main.lua
+	
+[00:12:11]: loaded modindex	
+[00:12:11]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:12:11]: SUCCESS: Loaded modoverrides.lua	
+[00:12:11]: modoverrides.lua enabling workshop-378160973	
+[00:12:11]: modoverrides.lua enabling workshop-458587300	
+[00:12:11]: modoverrides.lua enabling workshop-666155465	
+[00:12:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:12:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:12:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:12:11]: Could not load mod_config_data/modconfiguration_workshop-458587300	
+[00:12:11]: Loading mod: workshop-458587300 (Fast Travel) Version:1.1.0	
+[00:12:11]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:12:11]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:12:11]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:12:11]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:12:11]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:12:11]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:12:11]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:12:11]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:12:11]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:12:11]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:12:11]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:12:11]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:12:11]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:12:11]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:12:11]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:12:11]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:12:11]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:12:11]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option show_uses with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option lang with value auto	
+[00:12:11]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:12:11]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:12:11]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:12:11]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:12:11]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:12:11]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:12:11]: ShowMe version:	0.58	
+[00:12:11]: show_food_units	-1	-1	-1	
+[00:12:11]: show_uses	-1	-1	-1	
+[00:12:11]: Detected language for ShowMe: 	auto	zh	
+[00:12:11]: Mod: workshop-458587300 (Fast Travel)	Loading modworldgenmain.lua	
+[00:12:11]: Mod: workshop-458587300 (Fast Travel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:12:11]: Mod: workshop-458587300 (Fast Travel)	Loading modmain.lua	
+[00:12:11]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:12:11]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:12:11]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:12:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:12:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:12:11]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:12:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:12:11]: LOADING LUA SUCCESS
+[00:12:11]: Registering Server mod namespace "showmeshint"
+[00:12:11]: Registering Server mod namespace "workshop-378160973"
+[00:12:11]: Registering Server mod namespace "showme"
+[00:12:11]: PlayerDeaths could not load morgue	
+[00:12:11]: PlayerHistory could not load player_history	
+[00:12:11]: ServerPreferences could not load server_preferences	
+[00:12:11]: ConsoleScreenSettings could not load consolescreen	
+[00:12:11]: bloom_enabled	true	
+[00:12:11]: OnFilesLoaded()	
+[00:12:11]: OnUpdatePurchaseStateComplete	
+[00:12:11]: Loading world: session/519CFC0434733AA8/0000000055	
+[00:12:11]: Save file is at version 5.12	
+[00:12:11]: Klump load on boot started.	
+[00:12:11]: Klump files loaded: 	0	
+[00:12:12]: 	Unload characters	
+[00:12:12]: 	BE assets already loaded	
+[00:12:12]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:12:12]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:12:12]: Mod: workshop-458587300 (Fast Travel)	Registering prefabs	
+[00:12:12]: Mod: workshop-458587300 (Fast Travel)	  Registering default mod prefab	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:12:12]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:12:12]: Begin Session: 519CFC0434733AA8
+[00:12:12]: Stomping previously assigned session identifier, two loads issued.
+[00:12:12]: saving to server_temp/server_save	
+[00:12:12]: OVERRIDE: setting	flowers_regrowth	to	fast	
+[00:12:12]: OVERRIDE: setting	carrots_regrowth	to	fast	
+[00:12:12]: OVERRIDE: setting	twiggytrees_regrowth	to	fast	
+[00:12:12]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:12:12]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:12:12]: Loading 19 new character(s)	
+[00:12:12]: Total 19 character(s) loaded	
+[00:12:13]: Loading Nav Grid	
+[00:12:13]: World generated on build 519602 with save version: 5.12, using seed: 1660989273	
+[00:12:13]: setting 	summerlength	15	
+[00:12:13]: setting 	cavemoonphase	threequarter	
+[00:12:13]: setting 	iscavefullmoon	false	
+[00:12:13]: setting 	isnightmaredawn	false	
+[00:12:13]: setting 	elapseddaysinseason	14	
+[00:12:13]: setting 	isfullmoon	false	
+[00:12:13]: setting 	moisture	492.81777954102	
+[00:12:13]: setting 	cavephase	day	
+[00:12:13]: setting 	iscavewaxingmoon	false	
+[00:12:13]: setting 	isnightmarewild	false	
+[00:12:13]: setting 	nightmaretimeinphase	0	
+[00:12:13]: setting 	precipitationrate	0	
+[00:12:13]: setting 	iswet	true	
+[00:12:13]: setting 	isnewmoon	false	
+[00:12:13]: setting 	precipitation	none	
+[00:12:13]: setting 	israining	false	
+[00:12:13]: setting 	isnightmarewarn	false	
+[00:12:13]: setting 	iswinter	false	
+[00:12:13]: setting 	season	spring	
+[00:12:13]: setting 	remainingdaysinseason	6	
+[00:12:13]: setting 	winterlength	15	
+[00:12:13]: setting 	iscaveday	true	
+[00:12:13]: setting 	moistureceil	4992.5297851562	
+[00:12:13]: setting 	isday	true	
+[00:12:13]: setting 	springlength	20	
+[00:12:13]: setting 	wetness	88.671691894531	
+[00:12:13]: setting 	iscavedusk	false	
+[00:12:13]: setting 	isalterawake	false	
+[00:12:13]: setting 	isnightmarecalm	false	
+[00:12:13]: setting 	isnight	false	
+[00:12:13]: setting 	isdusk	false	
+[00:12:13]: setting 	isspring	true	
+[00:12:13]: setting 	isautumn	false	
+[00:12:13]: setting 	issnowing	false	
+[00:12:13]: setting 	iswaxingmoon	false	
+[00:12:13]: setting 	phase	day	
+[00:12:13]: setting 	snowlevel	0	
+[00:12:13]: setting 	issnowcovered	false	
+[00:12:13]: setting 	autumnlength	20	
+[00:12:13]: setting 	pop	0.0094202933310255	
+[00:12:13]: setting 	nightmaretime	0	
+[00:12:13]: setting 	seasonprogress	0.7	
+[00:12:13]: setting 	moonphase	threequarter	
+[00:12:13]: setting 	nightmarephase	none	
+[00:12:13]: setting 	cycles	49	
+[00:12:13]: setting 	timeinphase	0.005438232421875	
+[00:12:13]: setting 	iscavenight	false	
+[00:12:13]: setting 	iscavenewmoon	false	
+[00:12:13]: setting 	issummer	false	
+[00:12:13]: setting 	temperature	41.243761567136	
+[00:12:13]: setting 	time	0.0020393371582031	
+[00:12:16]: Reconstructing topology	
+[00:12:16]: 	...Sorting points	
+[00:12:16]: 	...Sorting edges	
+[00:12:16]: 	...Connecting nodes	
+[00:12:16]: 	...Validating connections	
+[00:12:16]: 	...Housekeeping	
+[00:12:16]: 	...Done!	
+[00:12:16]: Restoring user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000055	
+[00:12:16]: Could not find anim [idle_loop] in bank [ghost]
+[00:12:16]: Serializing user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000056
+[00:12:16]: 1 uploads added to server. From server_temp
+[00:12:16]: World 846547125 is now connected	
+[00:12:16]: [IPC] Sending signal.... #0xaf
+[00:12:16]: Telling Client our new session identifier: 519CFC0434733AA8
+[00:12:16]: Check for write access: TRUE
+[00:12:16]: Check for read access: TRUE
+[00:12:16]: Available disk space for save files: 46229350 MB
+[00:12:16]: ModIndex: Load sequence finished successfully.	
+[00:12:17]: Reset() returning
+[00:12:17]: [Shard] Secondary shard 'Caves(846547125)' restarting...
+[00:12:17]: World 846547125 is now disconnected	
+[00:12:17]: Validating portal[4] <-> 846547125[4] (inactive)	
+[00:12:17]: Validating portal[3] <-> 846547125[3] (inactive)	
+[00:12:17]: Validating portal[10] <-> 846547125[10] (inactive)	
+[00:12:17]: Validating portal[5] <-> 846547125[5] (inactive)	
+[00:12:17]: Validating portal[6] <-> 846547125[6] (inactive)	
+[00:12:17]: Validating portal[1] <-> 846547125[1] (inactive)	
+[00:12:17]: Validating portal[2] <-> 846547125[2] (inactive)	
+[00:12:17]: Validating portal[9] <-> 846547125[9] (inactive)	
+[00:12:17]: Validating portal[7] <-> 846547125[7] (inactive)	
+[00:12:17]: Validating portal[8] <-> 846547125[8] (inactive)	
+[00:12:17]: Sim paused
+[00:12:23]: [Shard] Secondary Caves(846547125) ready!
+[00:12:23]: World 846547125 is now connected	
+[00:12:23]: Validating portal[4] <-> 846547125[4] (disabled)	
+[00:12:23]: Validating portal[3] <-> 846547125[3] (disabled)	
+[00:12:23]: Validating portal[10] <-> 846547125[10] (disabled)	
+[00:12:23]: Validating portal[5] <-> 846547125[5] (disabled)	
+[00:12:23]: Validating portal[6] <-> 846547125[6] (disabled)	
+[00:12:23]: Validating portal[1] <-> 846547125[1] (disabled)	
+[00:12:23]: Validating portal[2] <-> 846547125[2] (disabled)	
+[00:12:23]: Validating portal[9] <-> 846547125[9] (disabled)	
+[00:12:23]: Validating portal[7] <-> 846547125[7] (disabled)	
+[00:12:23]: Validating portal[8] <-> 846547125[8] (disabled)	
+[00:12:29]: Restarting player migration on master server
+[00:12:29]: [Shard] Read save location file for (KU_Y-Tulxw4)
+[00:12:29]: Resuming user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000056
+[00:12:29]: Could not find anim [idle_loop] in bank [ghost]
+[00:12:29]: Spawning player at: [Load] (83.89, 0.00, 363.68)	
+[00:12:29]: Sim unpaused
+[00:12:39]: Restarting player migration on master server
+[00:12:39]: [Shard] Read save location file for (KU_qRBOnXi4)
+[00:12:39]: Resuming user: session/519CFC0434733AA8/A7MHMBCCC6O4/0000000055
+[00:12:56]: [Steam] SendUserDisconnect for '76561198816187280'
+[00:12:56]: [Shard] (KU_Y-Tulxw4) disconnected from [SHDMASTER](1)
+[00:12:56]: [IPC] Received shutdown signal.
+[00:12:56]: Available disk space for save files: 46228865 MB
+[00:12:56]: Serializing user: session/519CFC0434733AA8/A7KBSTSBVFK4/0000000056
+[00:12:57]: Serializing world: session/519CFC0434733AA8/0000000056
+[00:12:57]: Truncating to snapshot #56...
+[00:12:57]:  - session/519CFC0434733AA8/0000000050
+[00:12:57]:  - session/519CFC0434733AA8/A7KBSTSBVFK4/0000000050
+[00:12:57]:  - session/519CFC0434733AA8/A7MHMBCCC6O4/0000000050
+[00:12:57]:    3 file(s) removed
+[00:12:57]: Removing server from lobby
+[00:12:57]: [Shard] Stopping shard mode
+[00:12:57]: [Steam] SendUserDisconnect for '76561199384089302'
+[00:12:57]: [Steam] SendUserDisconnect for ''
+[00:12:57]: Collecting garbage...
+[00:12:57]: lua_gc took 0.11 seconds
+[00:12:57]: ~ShardLuaProxy()
+[00:12:57]: ~cEventLeaderboardProxy()
+[00:12:57]: ~ItemServerLuaProxy()
+[00:12:57]: ~InventoryLuaProxy()
+[00:12:57]: ~NetworkLuaProxy()
+[00:12:57]: ~SimLuaProxy()
+[00:12:57]: Cancelling LuaQueryCallback handle [41]
+[00:12:57]: Cancelling LuaQueryCallback handle [42]
+[00:12:57]: lua_close took 0.18 seconds
+[00:12:58]: CurlRequestManager::ClientThread::Main() complete
+[00:12:58]: HttpClient2 discarded 0 callbacks.
+[00:12:58]: Shutting down

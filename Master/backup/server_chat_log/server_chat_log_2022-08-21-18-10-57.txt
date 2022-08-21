@@ -1,0 +1,5 @@
+[00:00:42]: [Join Announcement] lbc9601
+[00:02:05]: [Join Announcement] tuituijiangjiang
+[00:02:28]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[00:03:42]: [Leave Announcement] lbc9601
+[00:03:43]: [Leave Announcement] tuituijiangjiang

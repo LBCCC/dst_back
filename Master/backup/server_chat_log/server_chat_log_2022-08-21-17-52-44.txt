@@ -1,0 +1,34 @@
+[00:00:42]: [Join Announcement] lbc9601
+[00:07:36]: [Join Announcement] tuituijiangjiang
+[00:12:44]: [Death Announcement] tuituijiangjiang 死于： 猎犬。他变成了可怕的鬼魂！
+[00:13:14]: [Death Announcement] lbc9601 死于： 猎犬。他变成了可怕的鬼魂！
+[00:13:29]: [Vote Announcement] rollback passed
+[00:21:21]: [Skin Announcement] lbc9601 feet_winona_nature
+[00:35:13]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[00:36:13]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[00:36:21]: [Vote Announcement] rollback passed
+[00:46:08]: [Death Announcement] tuituijiangjiang 死于： 冻伤。他变成了可怕的鬼魂！
+[00:51:48]: [Death Announcement] lbc9601 死于： 冻伤。他变成了可怕的鬼魂！
+[00:52:05]: [Vote Announcement] rollback passed
+[00:54:10]: [Death Announcement] tuituijiangjiang 死于： 冻伤。他变成了可怕的鬼魂！
+[00:58:20]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[00:58:42]: [Vote Announcement] rollback passed
+[01:00:33]: [Death Announcement] tuituijiangjiang 死于： 冻伤。他变成了可怕的鬼魂！
+[01:00:57]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:03:52]: [Death Announcement] lbc9601 死于： 冻伤。他变成了可怕的鬼魂！
+[01:08:07]: [Resurrect Announcement] lbc9601 复活自： 试金石.
+[01:17:45]: [Skin Announcement] tuituijiangjiang birdcage_romantic
+[01:28:37]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[01:39:12]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:39:12]: [Skin Announcement] lbc9601 feet_wx78_yule
+[01:55:40]: [Death Announcement] tuituijiangjiang 死于： 火。他变成了可怕的鬼魂！
+[01:56:04]: [Vote Announcement] rollback passed
+[01:58:30]: [Death Announcement] tuituijiangjiang 死于： 闪电。他变成了可怕的鬼魂！
+[02:02:27]: [Death Announcement] lbc9601 死于： 冻伤。他变成了可怕的鬼魂！
+[02:05:53]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[02:05:59]: [Resurrect Announcement] lbc9601 复活自： 绚丽之门.
+[02:24:41]: [Death Announcement] tuituijiangjiang 死于： 恐怖尖喙。他变成了可怕的鬼魂！
+[02:30:56]: [Death Announcement] lbc9601 死于： 蜘蛛战士。他变成了可怕的鬼魂！
+[02:31:35]: [Vote Announcement] rollback passed
+[02:40:34]: [Leave Announcement] lbc9601
+[02:40:34]: [Leave Announcement] tuituijiangjiang

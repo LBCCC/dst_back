@@ -1,2 +1,23 @@
 [00:00:35]: [Join Announcement] lbc9601
-[00:02:06]: [Leave Announcement] lbc9601
+[00:01:18]: [Join Announcement] tuituijiangjiang
+[00:10:04]: [Skin Announcement] lbc9601 hand_winona_wrestler
+[00:36:50]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。她变成了可怕的鬼魂！
+[00:37:56]: [Death Announcement] lbc9601 死于： 怪物肉。他变成了可怕的鬼魂！
+[00:38:34]: [Vote Announcement] rollback passed
+[00:39:01]: [Death Announcement] lbc9601 死于： 恶作剧。他变成了可怕的鬼魂！
+[00:39:14]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[00:41:46]: [Resurrect Announcement] lbc9601 复活自： 绚丽之门.
+[01:01:29]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。她变成了可怕的鬼魂！
+[01:04:04]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[01:13:11]: [Death Announcement] tuituijiangjiang 死于： 中暑。她变成了可怕的鬼魂！
+[01:14:15]: [Vote Announcement] rollback passed
+[01:23:13]: [Skin Announcement] lbc9601 woodie_hockey
+[01:24:11]: [Skin Announcement] tuituijiangjiang legs_skirt_pleated_red_burgundy
+[01:28:01]: [Death Announcement] tuituijiangjiang 死于： 刺针旋花。她变成了可怕的鬼魂！
+[01:33:28]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:34:34]: [Death Announcement] tuituijiangjiang 死于： 中暑。她变成了可怕的鬼魂！
+[01:34:56]: [Vote Announcement] rollback passed
+[01:35:42]: [Resurrect Announcement] tuituijiangjiang 复活自： 试金石.
+[01:43:14]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[01:49:37]: [Death Announcement] tuituijiangjiang 死于： 黑暗。她变成了可怕的鬼魂！
+[01:50:46]: [Leave Announcement] lbc9601

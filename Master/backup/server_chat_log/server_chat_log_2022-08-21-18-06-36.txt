@@ -1,0 +1,10 @@
+[00:00:43]: [Join Announcement] lbc9601
+[00:01:15]: [Death Announcement] lbc9601 死于： 闪电。他变成了可怕的鬼魂！
+[00:01:30]: [Vote Announcement] rollback passed
+[00:01:51]: [Join Announcement] tuituijiangjiang
+[00:03:06]: [Resurrect Announcement] tuituijiangjiang 复活自： 绚丽之门.
+[00:04:32]: [Death Announcement] lbc9601 死于： 饥饿。他变成了可怕的鬼魂！
+[00:08:26]: [Death Announcement] tuituijiangjiang 死于： 爬行恐惧。他变成了可怕的鬼魂！
+[00:12:03]: [Vote Announcement] rollback passed
+[00:12:55]: [Leave Announcement] lbc9601
+[00:12:56]: [Leave Announcement] tuituijiangjiang
