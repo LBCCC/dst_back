@@ -13,3 +13,6 @@
 	ServerModSetup("378160973")
 	ServerModSetup("458587300")
 	ServerModSetup("666155465")
+	ServerModSetup("workshop-378160973")
+	ServerModSetup("workshop-458587300")
+	ServerModSetup("workshop-666155465")
